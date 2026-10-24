@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1240A96E8E26A0475BC1F384 /* RunRecordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6497F0EE6FDE42CB4F68E /* RunRecordStore.swift */; };
+		1D026DE9D253FED3CD753F02 /* DomeTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD13D77781C4501EFDCF57D /* DomeTone.swift */; };
+		1EADC294E3D55E40D680C77C /* PocketLaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1845044E76D06BCEB0FFE2 /* PocketLaneNode.swift */; };
+		237A887C0037838E337332DC /* HeroNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81471274919001D106A8C5 /* HeroNode.swift */; };
+		2AEA46BF0F3AC116A1E4FC20 /* GameSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C98592E243117C295063234 /* GameSimulation.swift */; };
+		36537FE7C55A01F0D51CC2ED /* ChapterOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF76BC4D20DB6A10B8F3D2 /* ChapterOverlayView.swift */; };
+		413BFABC27B6EC4B01B839AF /* WorldArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA12EE2BC6957217ED39927 /* WorldArt.swift */; };
+		438F2E23921E7648E2292FFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F45440CB59C6D2904828F /* ContentView.swift */; };
+		45CC3453047B7BD6252001F1 /* PauseOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E6CEB0F9B8EF7AEB43255 /* PauseOverlayView.swift */; };
+		47055C15A2CEF794A11807D4 /* OrbitglassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE974019B9413CB01C750569 /* OrbitglassApp.swift */; };
+		53D1E01709B540F718026B2A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AD2A355C19456EFCF0C68A1D /* Alamofire */; };
+		71F9AB56DC3202A194951362 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B31FA7FD2FC4A7C693D8FBC /* APIConfig.swift */; };
+		7578C125B19577F38BD75C50 /* SparkBallShadowNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02B54E12CA61509BF1C6431 /* SparkBallShadowNode.swift */; };
+		78234889BFF5842C0EDE77DF /* ChapterMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A7F4D55AE087E303E1528 /* ChapterMark.swift */; };
+		85032D5392909C7AB158EC40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F85FBA0EC059963CB757B0 /* AppDelegate.swift */; };
+		90B78F6D988DCB597EAD0EF6 /* PhysicsKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA9AF04BD55ADD02C1DA558 /* PhysicsKind.swift */; };
+		A1BFCB50403017E9B704FC6D /* DomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A21CE06441608131347622 /* DomeScene.swift */; };
+		A2191AE128ABB9A6821D73E2 /* SettingsSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1998A811DD423B36F5EB79 /* SettingsSheetViewController.swift */; };
+		A492CC424490E9C8569621C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E8FD58D6A26CE2E7D1F0FF /* Assets.xcassets */; };
+		A64E845569A2B2B83B15E4AC /* StarDiagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB35D1F1D6BF56F13A58E5BD /* StarDiagram.swift */; };
+		AC5DD898DA03E40227EB610A /* LandingDust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903B0A94465F23BBE091B09 /* LandingDust.swift */; };
+		AD7C4C7CE854BB03D995F700 /* RecordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677D90AA134FE4FCC80A899 /* RecordsTableViewController.swift */; };
+		AF7AA15A660E5C947B7480D5 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2AD024AB69649AA0A00986 /* DesignTokens.swift */; };
+		B2BDABA654D05235D46075E2 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30DFF2DC671E1B81FA28EC /* ReviewLaunch.swift */; };
+		B43F67A7E5B3F9B7230AD462 /* RunRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E79EFE756191B6214C69A5 /* RunRecord.swift */; };
+		C18B61A3C25AD0D1ADEB16CA /* PinNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE4B89C78F8D9BA81E20134 /* PinNode.swift */; };
+		C6860C8CAF2884EB898B73F4 /* RecordRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A695D3117F6AD4193021A1B /* RecordRowCell.swift */; };
+		C8C51A3B3EF89F68F7EAF6B7 /* RestitutionCut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047120113B64A7619E2E4C45 /* RestitutionCut.swift */; };
+		CB1F425D6B94EDC2A58D2CA3 /* TopGaugeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890863B870EB12F5A5847CC /* TopGaugeBarView.swift */; };
+		CE3BD984C789CB234741F47B /* OrbitglassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33516CDDB72F6EC35ED11400 /* OrbitglassTests.swift */; };
+		D0157ADE6A1CDC29A634709E /* ChunkSpawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F9F3CB8C816435D35B547 /* ChunkSpawner.swift */; };
+		EA155B9B357D3B7AA9CB665D /* RecordRowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452B0F41D57B40CBEFB59297 /* RecordRowCell.xib */; };
+		F04D2A92F703CF1EE159000B /* RootDomeHostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B8055BACCCD0208E2A1BA1 /* RootDomeHostController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5009ABFABFD60DD884F165AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D859087600A030062774CBB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20AB99FCFB8594720AF962CD;
+			remoteInfo = Orbitglass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047120113B64A7619E2E4C45 /* RestitutionCut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestitutionCut.swift; sourceTree = "<group>"; };
+		05B8055BACCCD0208E2A1BA1 /* RootDomeHostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootDomeHostController.swift; sourceTree = "<group>"; };
+		1903B0A94465F23BBE091B09 /* LandingDust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingDust.swift; sourceTree = "<group>"; };
+		261A7F4D55AE087E303E1528 /* ChapterMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterMark.swift; sourceTree = "<group>"; };
+		2C1845044E76D06BCEB0FFE2 /* PocketLaneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketLaneNode.swift; sourceTree = "<group>"; };
+		33516CDDB72F6EC35ED11400 /* OrbitglassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitglassTests.swift; sourceTree = "<group>"; };
+		3A9F0C655CF037A0B3851FF0 /* Orbitglass.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Orbitglass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA6497F0EE6FDE42CB4F68E /* RunRecordStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunRecordStore.swift; sourceTree = "<group>"; };
+		3C98592E243117C295063234 /* GameSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSimulation.swift; sourceTree = "<group>"; };
+		3D81471274919001D106A8C5 /* HeroNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroNode.swift; sourceTree = "<group>"; };
+		42F85FBA0EC059963CB757B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		452B0F41D57B40CBEFB59297 /* RecordRowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordRowCell.xib; sourceTree = "<group>"; };
+		477F45440CB59C6D2904828F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4890863B870EB12F5A5847CC /* TopGaugeBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGaugeBarView.swift; sourceTree = "<group>"; };
+		4A2AD024AB69649AA0A00986 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		65E8FD58D6A26CE2E7D1F0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DA12EE2BC6957217ED39927 /* WorldArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldArt.swift; sourceTree = "<group>"; };
+		7A695D3117F6AD4193021A1B /* RecordRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRowCell.swift; sourceTree = "<group>"; };
+		8EE4B89C78F8D9BA81E20134 /* PinNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinNode.swift; sourceTree = "<group>"; };
+		8F1998A811DD423B36F5EB79 /* SettingsSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheetViewController.swift; sourceTree = "<group>"; };
+		9677D90AA134FE4FCC80A899 /* RecordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsTableViewController.swift; sourceTree = "<group>"; };
+		9B31FA7FD2FC4A7C693D8FBC /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		9DD13D77781C4501EFDCF57D /* DomeTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomeTone.swift; sourceTree = "<group>"; };
+		AE974019B9413CB01C750569 /* OrbitglassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitglassApp.swift; sourceTree = "<group>"; };
+		B02B54E12CA61509BF1C6431 /* SparkBallShadowNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkBallShadowNode.swift; sourceTree = "<group>"; };
+		B9E6CF4DFB0EB2A1316E1E5F /* OrbitglassTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OrbitglassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA9AF04BD55ADD02C1DA558 /* PhysicsKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsKind.swift; sourceTree = "<group>"; };
+		CB35D1F1D6BF56F13A58E5BD /* StarDiagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarDiagram.swift; sourceTree = "<group>"; };
+		E2A21CE06441608131347622 /* DomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomeScene.swift; sourceTree = "<group>"; };
+		EACF76BC4D20DB6A10B8F3D2 /* ChapterOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterOverlayView.swift; sourceTree = "<group>"; };
+		EB3E6CEB0F9B8EF7AEB43255 /* PauseOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseOverlayView.swift; sourceTree = "<group>"; };
+		F1E79EFE756191B6214C69A5 /* RunRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunRecord.swift; sourceTree = "<group>"; };
+		F52F9F3CB8C816435D35B547 /* ChunkSpawner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkSpawner.swift; sourceTree = "<group>"; };
+		FB30DFF2DC671E1B81FA28EC /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		003D1B642424F6A175332385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D1E01709B540F718026B2A /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4462970C1ED8F4A1ADF12FD8 /* SparkBall */ = {
+			isa = PBXGroup;
+			children = (
+				3D81471274919001D106A8C5 /* HeroNode.swift */,
+				B02B54E12CA61509BF1C6431 /* SparkBallShadowNode.swift */,
+			);
+			path = SparkBall;
+			sourceTree = "<group>";
+		};
+		4589B3FF5A1E0D1750AAC740 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				261A7F4D55AE087E303E1528 /* ChapterMark.swift */,
+				EACF76BC4D20DB6A10B8F3D2 /* ChapterOverlayView.swift */,
+				EB3E6CEB0F9B8EF7AEB43255 /* PauseOverlayView.swift */,
+				7A695D3117F6AD4193021A1B /* RecordRowCell.swift */,
+				452B0F41D57B40CBEFB59297 /* RecordRowCell.xib */,
+				9677D90AA134FE4FCC80A899 /* RecordsTableViewController.swift */,
+				8F1998A811DD423B36F5EB79 /* SettingsSheetViewController.swift */,
+				4890863B870EB12F5A5847CC /* TopGaugeBarView.swift */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		493DD88796FE2BC00B6E9491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A9F0C655CF037A0B3851FF0 /* Orbitglass.app */,
+				B9E6CF4DFB0EB2A1316E1E5F /* OrbitglassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF2A628E232BAD309E34113 /* PocketLane */ = {
+			isa = PBXGroup;
+			children = (
+				2C1845044E76D06BCEB0FFE2 /* PocketLaneNode.swift */,
+			);
+			path = PocketLane;
+			sourceTree = "<group>";
+		};
+		63F84997306CF625F48BDCAD /* GameSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				3C98592E243117C295063234 /* GameSimulation.swift */,
+			);
+			path = GameSimulation;
+			sourceTree = "<group>";
+		};
+		7868AFB7193D6204F806A932 /* RunRecord */ = {
+			isa = PBXGroup;
+			children = (
+				F1E79EFE756191B6214C69A5 /* RunRecord.swift */,
+				3AA6497F0EE6FDE42CB4F68E /* RunRecordStore.swift */,
+			);
+			path = RunRecord;
+			sourceTree = "<group>";
+		};
+		975FEAF08506968F1107D5D8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				05B8055BACCCD0208E2A1BA1 /* RootDomeHostController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9FBC10B50E9D1E0054A47D8E /* OrbitglassTests */ = {
+			isa = PBXGroup;
+			children = (
+				33516CDDB72F6EC35ED11400 /* OrbitglassTests.swift */,
+			);
+			path = OrbitglassTests;
+			sourceTree = "<group>";
+		};
+		B0B4B10F466299ECCCDFEAE6 /* Orbitglass */ = {
+			isa = PBXGroup;
+			children = (
+				9B31FA7FD2FC4A7C693D8FBC /* APIConfig.swift */,
+				42F85FBA0EC059963CB757B0 /* AppDelegate.swift */,
+				65E8FD58D6A26CE2E7D1F0FF /* Assets.xcassets */,
+				477F45440CB59C6D2904828F /* ContentView.swift */,
+				4A2AD024AB69649AA0A00986 /* DesignTokens.swift */,
+				AE974019B9413CB01C750569 /* OrbitglassApp.swift */,
+				FB30DFF2DC671E1B81FA28EC /* ReviewLaunch.swift */,
+				975FEAF08506968F1107D5D8 /* App */,
+				C9D2921D4565F1CBF16C8E3C /* DomeScene */,
+				EB876B390DE007F4C35AEDC8 /* Feel */,
+				63F84997306CF625F48BDCAD /* GameSimulation */,
+				4589B3FF5A1E0D1750AAC740 /* HUD */,
+				EED9461F599EA7A232A4CE99 /* PinField */,
+				4CF2A628E232BAD309E34113 /* PocketLane */,
+				7868AFB7193D6204F806A932 /* RunRecord */,
+				4462970C1ED8F4A1ADF12FD8 /* SparkBall */,
+				BB78E65BC57774A5B60CAA97 /* World */,
+			);
+			path = Orbitglass;
+			sourceTree = "<group>";
+		};
+		B74AC93A42596DF163708092 = {
+			isa = PBXGroup;
+			children = (
+				B0B4B10F466299ECCCDFEAE6 /* Orbitglass */,
+				9FBC10B50E9D1E0054A47D8E /* OrbitglassTests */,
+				493DD88796FE2BC00B6E9491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB78E65BC57774A5B60CAA97 /* World */ = {
+			isa = PBXGroup;
+			children = (
+				6DA12EE2BC6957217ED39927 /* WorldArt.swift */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		C9D2921D4565F1CBF16C8E3C /* DomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				E2A21CE06441608131347622 /* DomeScene.swift */,
+				BCA9AF04BD55ADD02C1DA558 /* PhysicsKind.swift */,
+				047120113B64A7619E2E4C45 /* RestitutionCut.swift */,
+			);
+			path = DomeScene;
+			sourceTree = "<group>";
+		};
+		EB876B390DE007F4C35AEDC8 /* Feel */ = {
+			isa = PBXGroup;
+			children = (
+				9DD13D77781C4501EFDCF57D /* DomeTone.swift */,
+				1903B0A94465F23BBE091B09 /* LandingDust.swift */,
+			);
+			path = Feel;
+			sourceTree = "<group>";
+		};
+		EED9461F599EA7A232A4CE99 /* PinField */ = {
+			isa = PBXGroup;
+			children = (
+				F52F9F3CB8C816435D35B547 /* ChunkSpawner.swift */,
+				8EE4B89C78F8D9BA81E20134 /* PinNode.swift */,
+				CB35D1F1D6BF56F13A58E5BD /* StarDiagram.swift */,
+			);
+			path = PinField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20AB99FCFB8594720AF962CD /* Orbitglass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A218B40CAB16F106E7AD44 /* Build configuration list for PBXNativeTarget "Orbitglass" */;
+			buildPhases = (
+				F78B5011BBB757E904772CED /* Sources */,
+				A8333ECFA4D7836F6FBF7160 /* Resources */,
+				003D1B642424F6A175332385 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orbitglass;
+			packageProductDependencies = (
+				AD2A355C19456EFCF0C68A1D /* Alamofire */,
+			);
+			productName = Orbitglass;
+			productReference = 3A9F0C655CF037A0B3851FF0 /* Orbitglass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4438086E7E2F623AF6A759B5 /* OrbitglassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B4DA0CDADB6C71DEE587A17 /* Build configuration list for PBXNativeTarget "OrbitglassTests" */;
+			buildPhases = (
+				C24CF544EF7FB77F27501A7C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF85676FE3998135E1F072B /* PBXTargetDependency */,
+			);
+			name = OrbitglassTests;
+			packageProductDependencies = (
+			);
+			productName = OrbitglassTests;
+			productReference = B9E6CF4DFB0EB2A1316E1E5F /* OrbitglassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D859087600A030062774CBB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					20AB99FCFB8594720AF962CD = {
+						ProvisioningStyle = Automatic;
+					};
+					4438086E7E2F623AF6A759B5 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C7C6E353278987EAAA9DF62 /* Build configuration list for PBXProject "Orbitglass" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B74AC93A42596DF163708092;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F42732E01ED5C9DDFCD19C76 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 493DD88796FE2BC00B6E9491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20AB99FCFB8594720AF962CD /* Orbitglass */,
+				4438086E7E2F623AF6A759B5 /* OrbitglassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8333ECFA4D7836F6FBF7160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A492CC424490E9C8569621C4 /* Assets.xcassets in Resources */,
+				EA155B9B357D3B7AA9CB665D /* RecordRowCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C24CF544EF7FB77F27501A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3BD984C789CB234741F47B /* OrbitglassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78B5011BBB757E904772CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F9AB56DC3202A194951362 /* APIConfig.swift in Sources */,
+				85032D5392909C7AB158EC40 /* AppDelegate.swift in Sources */,
+				78234889BFF5842C0EDE77DF /* ChapterMark.swift in Sources */,
+				36537FE7C55A01F0D51CC2ED /* ChapterOverlayView.swift in Sources */,
+				D0157ADE6A1CDC29A634709E /* ChunkSpawner.swift in Sources */,
+				438F2E23921E7648E2292FFB /* ContentView.swift in Sources */,
+				AF7AA15A660E5C947B7480D5 /* DesignTokens.swift in Sources */,
+				A1BFCB50403017E9B704FC6D /* DomeScene.swift in Sources */,
+				1D026DE9D253FED3CD753F02 /* DomeTone.swift in Sources */,
+				2AEA46BF0F3AC116A1E4FC20 /* GameSimulation.swift in Sources */,
+				237A887C0037838E337332DC /* HeroNode.swift in Sources */,
+				AC5DD898DA03E40227EB610A /* LandingDust.swift in Sources */,
+				47055C15A2CEF794A11807D4 /* OrbitglassApp.swift in Sources */,
+				45CC3453047B7BD6252001F1 /* PauseOverlayView.swift in Sources */,
+				90B78F6D988DCB597EAD0EF6 /* PhysicsKind.swift in Sources */,
+				C18B61A3C25AD0D1ADEB16CA /* PinNode.swift in Sources */,
+				1EADC294E3D55E40D680C77C /* PocketLaneNode.swift in Sources */,
+				C6860C8CAF2884EB898B73F4 /* RecordRowCell.swift in Sources */,
+				AD7C4C7CE854BB03D995F700 /* RecordsTableViewController.swift in Sources */,
+				C8C51A3B3EF89F68F7EAF6B7 /* RestitutionCut.swift in Sources */,
+				B2BDABA654D05235D46075E2 /* ReviewLaunch.swift in Sources */,
+				F04D2A92F703CF1EE159000B /* RootDomeHostController.swift in Sources */,
+				B43F67A7E5B3F9B7230AD462 /* RunRecord.swift in Sources */,
+				1240A96E8E26A0475BC1F384 /* RunRecordStore.swift in Sources */,
+				A2191AE128ABB9A6821D73E2 /* SettingsSheetViewController.swift in Sources */,
+				7578C125B19577F38BD75C50 /* SparkBallShadowNode.swift in Sources */,
+				A64E845569A2B2B83B15E4AC /* StarDiagram.swift in Sources */,
+				CB1F425D6B94EDC2A58D2CA3 /* TopGaugeBarView.swift in Sources */,
+				413BFABC27B6EC4B01B839AF /* WorldArt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFF85676FE3998135E1F072B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20AB99FCFB8594720AF962CD /* Orbitglass */;
+			targetProxy = 5009ABFABFD60DD884F165AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03BFD90870B35ED809AD5CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		0436338A0580B1A80A6363BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		AC000AE135D0CE0E2381E2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitglass.dome.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbitglass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orbitglass";
+			};
+			name = Debug;
+		};
+		DB5AB44C50DD26FC6D8909F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Plinorbit;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitglass.dome;
+				PRODUCT_NAME = Orbitglass;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DED4EE16C7180BFA28814695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitglass.dome.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbitglass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orbitglass";
+			};
+			name = Release;
+		};
+		F8D98E4D8E15908A6431A4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Plinorbit;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitglass.dome;
+				PRODUCT_NAME = Orbitglass;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B4DA0CDADB6C71DEE587A17 /* Build configuration list for PBXNativeTarget "OrbitglassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC000AE135D0CE0E2381E2F9 /* Debug */,
+				DED4EE16C7180BFA28814695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C7C6E353278987EAAA9DF62 /* Build configuration list for PBXProject "Orbitglass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0436338A0580B1A80A6363BB /* Debug */,
+				03BFD90870B35ED809AD5CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E3A218B40CAB16F106E7AD44 /* Build configuration list for PBXNativeTarget "Orbitglass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D98E4D8E15908A6431A4C0 /* Debug */,
+				DB5AB44C50DD26FC6D8909F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F42732E01ED5C9DDFCD19C76 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/petarlovrojukic-a11y/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = eebc9adac38a4f09deb55753419c2c97e07aca67;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD2A355C19456EFCF0C68A1D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F42732E01ED5C9DDFCD19C76 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D859087600A030062774CBB3 /* Project object */;
+}

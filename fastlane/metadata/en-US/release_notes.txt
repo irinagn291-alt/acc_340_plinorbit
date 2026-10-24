@@ -1,0 +1,10 @@
+Version 1.0 is the first release of Plinorbit, a one-screen physics drop game. Nothing is wagered.
+
+• Drop the glass with a tap, or hold to tilt the board before release. A tilted release makes the next bounce die sooner.
+• Light stars on the way down. Each lit star adds 10. Landing in an open pocket after every star is lit adds 25.
+• Four chapters, shown as "01" to "04", with a chapter card and "Continue" between them.
+• Pause, then "Resume", "Records", or "Settings".
+• Records saves "Best score", "Highest chapter", and "Chapter 1 clears" through "Chapter 4 clears" on this device.
+• "Reset" clears those saved numbers and shows "Scores cleared."
+• "Contact" opens the support page.
+• Glass tones play on release, bounce, a lit star, a failed drop, and a new chapter. A light tap accompanies a lit star.

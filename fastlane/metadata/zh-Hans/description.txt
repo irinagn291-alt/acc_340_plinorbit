@@ -1,0 +1,14 @@
+Plinorbit 是一款单屏物理投放游戏。一块玻璃穿过钉子落向口袋；玩家倾斜木板、点亮星星，并设法落入开放的口袋。适合想进行短时、可重复的瞄准与投放的人。不涉及任何投注。
+
+• 点按即可投放玻璃，或按住以在松开前倾斜木板。倾斜后松开，下一次弹跳会更快停下。
+• 下落途中点亮星星。每点亮一颗星，分数加 10。顶部轨道随点亮而填满，星星被收集后会变暗。
+• 只有每一颗星都点亮之后，才能落入开放口袋。此次落入加 25，将玻璃停在顶部，并载入下一次投放。
+• 两个外侧口袋标为危险。落入外侧口袋，或在每一颗星都点亮之前落入开放口袋，会结束本局且无提示。木板回到"01"，分数回到"0"。
+• 共四章，显示为"01"至"04"。两次成功落入口袋后进入下一章。到达"04"之后的落入仍停留在"04"。
+• 章节推进时会出现章节卡片，覆盖在静止的木板之上，直到点按"Continue"。第 2 章标题为"Warm Pins"。第 3 章标题为"Pale Weather"。第 4 章标题为"Last Pocket"。
+• 暂停控件（VoiceOver 名称"Pause"）会冻结投放并打开"Paused"，说明文字为"The dome holds."。"Resume"继续同一次投放。"Records"和"Settings"可在投放保持暂停时打开。
+• "Records"列出"Best score"、"Highest chapter"、"Chapter 1 clears"、"Chapter 2 clears"、"Chapter 3 clears"和"Chapter 4 clears"。
+• "Settings"显示"ORBITGLASS"、"On this device"以及"Best score and chapter stay here. Nothing is wagered."。"Contact"打开支持页面。"Reset"清除已保存的数字并显示"Scores cleared."。
+• 玻璃提示音会在松开、弹跳、点亮星星、投放失败和新章节时播放。点亮星星时伴有一声轻点。
+
+新的启动从"01"开始，分数为"0"。最高分、最高章节和各章通关次数保存在本机。

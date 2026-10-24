@@ -1,0 +1,14 @@
+Plinorbit is a one-screen physics drop game. A glass piece falls through pins toward pockets; the player tilts the board, lights stars, and tries to land in an open pocket. It is for someone who wants a short, repeatable aim-and-drop session. Nothing is wagered.
+
+• Drop the glass with a tap, or hold to tilt the board before release. A tilted release makes the next bounce die sooner.
+• Light stars on the way down. Each lit star adds 10 to the score. The top track fills as they light, and stars dim once collected.
+• Land in an open pocket only after every star is lit. That landing adds 25, parks the glass at the top, and loads the next drop.
+• The two outer pockets are marked as hazards. Landing in an outer pocket, or in an open pocket before every star is lit, ends the run with no alert. The board returns to "01" and the score returns to "0".
+• Four chapters, shown as "01" to "04". Two successful pockets advance the chapter. Further landings after "04" stay on "04".
+• A chapter card appears when the chapter advances, over the frozen board, until "Continue" is tapped. Chapter 2 is titled "Warm Pins". Chapter 3 is titled "Pale Weather". Chapter 4 is titled "Last Pocket".
+• The pause control (VoiceOver name "Pause") freezes the drop and opens "Paused", with the caption "The dome holds." "Resume" continues the same drop. "Records" and "Settings" open while the drop stays paused.
+• Records lists "Best score", "Highest chapter", "Chapter 1 clears", "Chapter 2 clears", "Chapter 3 clears", and "Chapter 4 clears".
+• Settings shows "ORBITGLASS", "On this device", and "Best score and chapter stay here. Nothing is wagered." "Contact" opens the support page. "Reset" clears the saved numbers and shows "Scores cleared."
+• Glass tones play on release, bounce, a lit star, a failed drop, and a new chapter. A light tap accompanies a lit star.
+
+A new launch starts at "01" with score "0". Best score, highest chapter, and chapter clear counts stay on this device.
